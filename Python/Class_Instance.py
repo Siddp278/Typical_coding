@@ -1,4 +1,5 @@
 class Person:
+    age = 99 # initialized age variable so there is no confusion.    
     def __init__(self,initialAge):
         self.age = initialAge
         if self.age < 0:
